@@ -2,7 +2,6 @@
 Takes advantage of multicore systems to speed up the simulation runs.
 """
 import matplotlib
-matplotlib.use('qt4agg')
 from bandits.agent import Agent, BetaAgent
 from bandits.bandit import BernoulliBandit, BinomialBandit
 from bandits.policy import GreedyPolicy, EpsilonGreedyPolicy, UCBPolicy
